@@ -13,6 +13,10 @@ public class PessoaDAO {
 
   }
 
+  public ArrayList<Pessoa> getPessoas(){
+    return this.pessoas;
+  }
+
   public void cadastrarPessoa(Pessoa novaPessoa){
     this.pessoas.add(novaPessoa);
   }
